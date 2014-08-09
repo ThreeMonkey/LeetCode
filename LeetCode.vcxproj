@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{77272520-8629-4630-8AED-2EC70B44317A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LeetCode</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3Sum Closest.cpp" />
+    <ClCompile Include="3Sum.cpp" />
+    <ClCompile Include="4Sum.cpp" />
+    <ClCompile Include="Add Binary.cpp" />
+    <ClCompile Include="Add Two Numbers.cpp" />
+    <ClCompile Include="Anagrams.cpp" />
+    <ClCompile Include="Balanced Binary Tree.cpp" />
+    <ClCompile Include="Best Time to Buy and Sell Stock II.cpp" />
+    <ClCompile Include="Best Time to Buy and Sell Stock III.cpp" />
+    <ClCompile Include="Best Time to Buy and Sell Stock.cpp" />
+    <ClCompile Include="Binary Tree Inorder Traversal.cpp" />
+    <ClCompile Include="Binary Tree Level Order Traversal II.cpp" />
+    <ClCompile Include="Binary Tree Level Order Traversal.cpp" />
+    <ClCompile Include="Binary Tree Maximum Path Sum.cpp" />
+    <ClCompile Include="Binary Tree Postorder Traversal.cpp" />
+    <ClCompile Include="Binary Tree Preorder Traversal.cpp" />
+    <ClCompile Include="Binary Tree Zigzag Level Order Traversal.cpp" />
+    <ClCompile Include="Candy.cpp" />
+    <ClCompile Include="Climbing Stairs.cpp" />
+    <ClCompile Include="Clone Graph.cpp" />
+    <ClCompile Include="Combination Sum II.cpp" />
+    <ClCompile Include="Combination Sum.cpp" />
+    <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="Construct Binary Tree from Inorder and Postorder Traversal.cpp" />
+    <ClCompile Include="Construct Binary Tree from Preorder and Inorder Traversal.cpp" />
+    <ClCompile Include="Container With Most Water.cpp" />
+    <ClCompile Include="Convert Sorted Array to Binary Search Tree.cpp" />
+    <ClCompile Include="Convert Sorted List to Binary Search Tree.cpp" />
+    <ClCompile Include="Count and Say.cpp" />
+    <ClCompile Include="Decode Ways.cpp" />
+    <ClCompile Include="Distinct Subsequences.cpp" />
+    <ClCompile Include="Divide Two Integers.cpp" />
+    <ClCompile Include="Edit Distance.cpp" />
+    <ClCompile Include="Evaluate Reverse Polish Notation.cpp" />
+    <ClCompile Include="First Missing Positive.cpp" />
+    <ClCompile Include="Flatten Binary Tree to Linked List.cpp" />
+    <ClCompile Include="Gas Station.cpp" />
+    <ClCompile Include="Generate Parentheses.cpp" />
+    <ClCompile Include="Gray Code.cpp" />
+    <ClCompile Include="Implement strStr().cpp" />
+    <ClCompile Include="Insert Interval.cpp" />
+    <ClCompile Include="Insertion Sort List.cpp" />
+    <ClCompile Include="Integer to Roman.cpp" />
+    <ClCompile Include="Interleaving_String.cpp" />
+    <ClCompile Include="Jump Game II.cpp" />
+    <ClCompile Include="Jump Game.cpp" />
+    <ClCompile Include="Largest Rectangle in Histogram.cpp" />
+    <ClCompile Include="Length of Last Word.cpp" />
+    <ClCompile Include="Letter Combinations of a Phone Number.cpp" />
+    <ClCompile Include="Longest Common Prefix.cpp" />
+    <ClCompile Include="Longest Consecutive Sequence.cpp" />
+    <ClCompile Include="Longest Palindromic Substring.cpp" />
+    <ClCompile Include="Longest Substring Without Repeating Characters.cpp" />
+    <ClCompile Include="Longest Valid Parentheses.cpp" />
+    <ClCompile Include="LRU Cache.cpp" />
+    <ClCompile Include="Max Points on a Line.cpp" />
+    <ClCompile Include="Maximal Rectangle.cpp" />
+    <ClCompile Include="Maximum Depth of Binary Tree.cpp" />
+    <ClCompile Include="Maximum Subarray.cpp" />
+    <ClCompile Include="Median of Two Sorted Arrays.cpp" />
+    <ClCompile Include="Merge Intervals.cpp" />
+    <ClCompile Include="Merge Sorted Array.cpp" />
+    <ClCompile Include="Merge Two Sorted Lists.cpp" />
+    <ClCompile Include="Merge_k_Sorted_Lists.cpp" />
+    <ClCompile Include="Merge_two_sorted_list.cpp" />
+    <ClCompile Include="Minimum Depth of Binary Tree.cpp" />
+    <ClCompile Include="Minimum Path Sum.cpp" />
+    <ClCompile Include="Minimum Window Substring.cpp" />
+    <ClCompile Include="Multiply Strings.cpp" />
+    <ClCompile Include="N-Queens II.cpp" />
+    <ClCompile Include="N-Queens.cpp" />
+    <ClCompile Include="Next Permutation.cpp" />
+    <ClCompile Include="Palindrome Number.cpp" />
+    <ClCompile Include="Palindrome Partitioning II.cpp" />
+    <ClCompile Include="Palindrome Partitioning.cpp" />
+    <ClCompile Include="Partition List.cpp" />
+    <ClCompile Include="Pascal%27s Triangle II.cpp" />
+    <ClCompile Include="Pascal%27s Triangle.cpp" />
+    <ClCompile Include="Path Sum II.cpp" />
+    <ClCompile Include="Permutation Sequence.cpp" />
+    <ClCompile Include="Permutations II.cpp" />
+    <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="Plus One.cpp" />
+    <ClCompile Include="Populating Next Right Pointers in Each Node II.cpp" />
+    <ClCompile Include="Populating Next Right Pointers in Each Node.cpp" />
+    <ClCompile Include="Pow(x, n).cpp" />
+    <ClCompile Include="Recover Binary Search Tree.cpp" />
+    <ClCompile Include="Regular Expression Matching.cpp" />
+    <ClCompile Include="Remove Duplicates from Sorted Array II.cpp" />
+    <ClCompile Include="Remove Duplicates from Sorted Array.cpp" />
+    <ClCompile Include="Remove Duplicates from Sorted List II.cpp" />
+    <ClCompile Include="Remove Duplicates from Sorted List.cpp" />
+    <ClCompile Include="Remove Element.cpp" />
+    <ClCompile Include="Remove Nth Node From End of List.cpp" />
+    <ClCompile Include="Remove_Duplicates_from_Sorted_List.cpp" />
+    <ClCompile Include="Remove_Nth_Node_From_End_of_List.cpp" />
+    <ClCompile Include="Reorder List.cpp" />
+    <ClCompile Include="Restore IP Addresses.cpp" />
+    <ClCompile Include="Reverse Integer.cpp" />
+    <ClCompile Include="Reverse Linked List II.cpp" />
+    <ClCompile Include="Reverse Nodes in k-Group.cpp" />
+    <ClCompile Include="Roman to Integer.cpp" />
+    <ClCompile Include="Rotate Image.cpp" />
+    <ClCompile Include="Rotate_List.cpp" />
+    <ClCompile Include="Same Tree.cpp" />
+    <ClCompile Include="Scramble String.cpp" />
+    <ClCompile Include="Search a 2D Matrix.cpp" />
+    <ClCompile Include="Search for a Range.cpp" />
+    <ClCompile Include="Search in Rotated Sorted Array II.cpp" />
+    <ClCompile Include="Search in Rotated Sorted Array.cpp" />
+    <ClCompile Include="Search Insert Position.cpp" />
+    <ClCompile Include="Set_Matrix_Zeroes.cpp" />
+    <ClCompile Include="Simplify Path.cpp" />
+    <ClCompile Include="Single Number II.cpp" />
+    <ClCompile Include="Single Number.cpp" />
+    <ClCompile Include="Sort Colors.cpp" />
+    <ClCompile Include="Sort List.cpp" />
+    <ClCompile Include="Spiral Matrix II.cpp" />
+    <ClCompile Include="Spiral Matrix.cpp" />
+    <ClCompile Include="Sqrt(x).cpp" />
+    <ClCompile Include="String to Integer (atoi).cpp" />
+    <ClCompile Include="Subsets II.cpp" />
+    <ClCompile Include="Subsets.cpp" />
+    <ClCompile Include="Substring with Concatenation of All Words.cpp" />
+    <ClCompile Include="Sudoku Solver.cpp" />
+    <ClCompile Include="Sum Root to Leaf Numbers.cpp" />
+    <ClCompile Include="Surrounded Regions.cpp" />
+    <ClCompile Include="Swap Nodes in Pairs.cpp" />
+    <ClCompile Include="Symmetric Tree.cpp" />
+    <ClCompile Include="Text Justification.cpp" />
+    <ClCompile Include="Trapping Rain Water.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="Two Sum.cpp" />
+    <ClCompile Include="Unique Binary Search Trees II.cpp" />
+    <ClCompile Include="Unique Paths II.cpp" />
+    <ClCompile Include="Unique Paths.cpp" />
+    <ClCompile Include="Unique_Binary_Search_Trees.cpp" />
+    <ClCompile Include="Valid Number.cpp" />
+    <ClCompile Include="Valid Palindrome.cpp" />
+    <ClCompile Include="Valid Parentheses.cpp" />
+    <ClCompile Include="Valid Sudoku.cpp" />
+    <ClCompile Include="Validate Binary Search Tree.cpp" />
+    <ClCompile Include="Wildcard Matching.cpp" />
+    <ClCompile Include="Word Break II.cpp" />
+    <ClCompile Include="Word Break.cpp" />
+    <ClCompile Include="Word Ladder II.cpp" />
+    <ClCompile Include="Word Ladder.cpp" />
+    <ClCompile Include="Word Search.cpp" />
+    <ClCompile Include="ZigZag Conversion.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
